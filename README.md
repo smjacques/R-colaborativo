@@ -1,7 +1,7 @@
 # peRmalab
 Permacultura Lab R Workshop
 
-Esse é o material criado para a oficina de R realizado no Permacultura Lab inspirado em materiais publicados pelo Software Carpentry.
+Esse é o material criado para a oficina de R realizado no Permacultura Lab, inspirado em materiais publicados pelo Software Carpentry.
 
 ## Resumo
 
@@ -23,9 +23,9 @@ Em paralelo, será apresentado como usar o R integrado ao GitHub e como organiza
 * Instalar o RStudio
 * Instalar o git
 * criar uma conta no GitHub
-* _Recomendamos_ trazer dados que esteja trabalhando
+* É _fortemente_ recomendado trazer dados que esteja trabalhando
 
-Haverá dados para analisar independente que a pessoa traga ou não, porém sabemos que trabalhar com dados próprios envolve maior familiaridade e identidade com eles que podem facilitar a compreensão dos princípios da linguagem.
+Haverá dados para analisar independente se a pessoa traga ou não, porém trabalhar com dados próprios envolve maior familiaridade e identidade com eles que podem facilitar a compreensão dos princípios da linguagem.
 
 ### Topicos abordados
 ### R
