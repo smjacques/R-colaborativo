@@ -5,7 +5,7 @@ Esse é o material criado para a oficina de R realizado no Permacultura Lab, ins
 
 ## Resumo
 
-O workshop abordará conceitos básico no uso da linguagem R e também de trabalhos colaborativos com o GitHub em estudos ambientais.
+O workshop abordará conceitos básicos no uso da linguagem R e também de trabalhos colaborativos com o GitHub em estudos ambientais.
 Essa introdução abordará as características do R e RStudio, como importar e trabalhar com os dados, e adequá-lo para diferentes tipos de análises estatísticas e criação de gráficos.
 Em paralelo, será apresentado como usar o R integrado ao GitHub e como organizar os arquivos da melhor forma para o trabalho entre pares, compartilhando dados, códigos e textos.
 
@@ -17,7 +17,7 @@ Em paralelo, será apresentado como usar o R integrado ao GitHub e como organiza
 * Usar o GitHub para compartilhar projetos com colaboradores
 
 
-## O que é necessário antes de comear?
+## O que é necessário antes de começar?
 
 * Instalar o R
 * Instalar o RStudio
