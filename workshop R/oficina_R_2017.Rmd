@@ -1,13 +1,15 @@
 ---
 title: "R para Análises Científicas Reproduzíveis"
+author: "Saulo Machado Jacques"
 minutes: 45
 output:
-  html_document: default
   pdf_document: default
+  html_document: default
   word_document: default
 subtitle: Introdução ao R e ao Rstudio
 layout: page
 ---
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />Esse trabalho <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">pode ser copiado, compartilhado e modificado</span> desde que citada a <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">fonte</span> de acordo com a Licença <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons - Atribuição  4.0 Internacional</a>.
 
 ```{r, include=FALSE}
 source("/home/saulo/Documents/projetos/Cursos e oficinas/workshop R/r-novice-gapminder-gh-pages/tools/chunk-options.R")
@@ -36,11 +38,11 @@ Hoje iremos aprender sobre:
 
 **Layout Básico do RStudio**
 
-Quando abrimos o RStudio, são apresentados três paineis:
+Quando abrimos o RStudio, são apresentados três painéis:
 
   * Console Interativo do R (área esquerda inteira)
-  * Wnvironment/History (Quadro superior direito)
-  * Files/Plots/Packages/Help (tabbed in lower right)
+  * Environment/History (Quadro superior direito)
+  * Files/Plots/Packages/Help (aba no quadro inferior direito)
 
 Uma vez que arquivos como script do R é aberto, o painel de script também
 abrirá na parte superior à esquerda.
@@ -178,7 +180,7 @@ exp(0.5) # e^(1/2)
 ```
 
 Não se preocupe em tentar lembrar cada função em R. Você
-pode simplesmente procurá-los no google, ou se você lembrar
+pode simplesmente procurá-los no Google, ou se você lembrar
 do início do nome da função, use tab para completar RStudio.
 Esta é uma das vantagens que RStudio tem sobre R: existem habilidades
 de autocompletar que permitem procurar mais facilmente por
@@ -488,11 +490,11 @@ R tem 5 tipos atômicos básicos (o que significa que eles não podem ser dividi
   * Inteiro (por exemplo, `2L`,` as.integer (3) `)
   * Decimal ("double")
 * Complexo (isto é, números complexos) (por exemplo, "1 + 0i", "1 + 4i")
-* Text ("character") (por exemplo, `` a ``, `` `` swc` `,` `This is a cat'`)
+* Text ("character") (por exemplo, `` a ``, `` `` swc` `,``Leve-me ao Seu Líder'`)
 
 O tipo numérico padrão é "decimal", que pode ser convertido para inteiro. Os inteiros ocupam menos espaço e consomem menos memória nas análises.
 Podemos armazenar qualquer um desses tipos de dados dentro de uma variável.
-Se não tivermos a certeza do tipo de dados que possuimos, existem várias funções que podem ser utilizadas para descobrir:
+Se não tivermos a certeza do tipo de dados que possuímos, existem várias funções que podem ser utilizadas para descobrir:
 
 
 ```{r, eval=FALSE}
@@ -1297,7 +1299,7 @@ com o terceiro argumento, `drop = FALSE`).
 > ```
 >
 > 4. Extraia a primeira linha e a quarta e a quinta colunas
->   (`lifeExp` and `gdpPercap`).
+>   (`lifeExp` e `gdpPercap`).
 >
 > ```{r, eval=FALSE}
 > gapminder[1, 4, 5]
@@ -1566,7 +1568,7 @@ quando lê dados. A razão para isso é que as colunas de texto de frequentement
 representam dados categóricos, que precisam ser fatores a serem tratados
 adequadamente por funções de modelagem estatística no R.
 No entanto, não é um padrão óbvio, e algo que muitas pessoas se confundem.
-Nós podemosdesativar esse padrão e ler os dados novamente.
+Nós podemos desativar esse padrão e ler os dados novamente.
 Lembre-se, se a conversão automática para fatores for desativada, será preciso
 explicitar a necessidade de conversão das variáveis em fatores quando for rodar
 modelos estatísticos.
@@ -1677,7 +1679,7 @@ Plotar os nossos dados é uma das melhores formas para explorar os dados em
 si e as várias relações entre variáveis de forma rápida.
 Nessa parte vamos aprender sobre o pacote ggplot2, porque é o mais
 poderoso para criar gráficos com qualidade de publicação.
-gplot2 é construído sobre a gramática de gráficos, a idéiaede que
+gplot2 é construído sobre a gramática de gráficos, a ideia de que
 qualquer parcela pode ser expressa a partir do mesmo conjunto de
 componentes: um grupo de ** dados ** set, um **sistema de coordenadas**, e um conjunto de **geoms** - a representação visual de pontos de dados.
 A chave para entender ggplot2 é pensar em uma figura em camadas: assim como pode
@@ -1801,8 +1803,8 @@ ggplot(data = gapminder, aes(x = lifeExp, y = gdpPercap)) +
   geom_point() + scale_y_log10() + geom_smooth(method="lm")
 ```
 
-We can make the line thicker by *setting* the **size** aesthetic in the
-`geom_smooth` layer:
+Podemos deixar a linha mais fina *ajustando* a estética **size** na camada
+`geom_smooth`:
 
 ```{r lm-fit2}
 ggplot(data = gapminder, aes(x = lifeExp, y = gdpPercap)) +
@@ -1855,7 +1857,7 @@ ggplot(data = gapminder2, aes(x = lifeExp, y = gdpPercap)) +
 Essa é só uma "palhinha" do que podemos fazer com o `ggplot2`. O RStudio fornece
 uma lista de "cola" muito útil, chamada [cheat sheet] [cheat] com as diferentes
 camadas disponíveis, e uma extensa documentação está disponível no [site do ggplot2] [ggplot-doc].
-Se há uma dúvida de como mudar algo, uma pesquisa rápida no google te levará
+Se há uma dúvida de como mudar algo, uma pesquisa rápida no Google te levará
 a um relevante "pergunta e resposta" no Stack Overflow com códigos reutilizáveis
 para modificar!
 
