@@ -1,5 +1,5 @@
 # peRmalab
-This is a Permacultura Lab R Workshop repository where you find related the files and details.
+This is a Permacultura Lab R Course repository where you find related the files and details.
 
 _ _ _ _
 
