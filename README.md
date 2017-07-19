@@ -1,5 +1,5 @@
 # peRmalab
-This is a Permacultura Lab R Course repository where you find related the files and details.
+Repositório do curso em constante construção "Linguagem R para Análises Reproduzíveis", oferecido no Permacultura Lab. Aqui você encontra arquivos e maiores detalhes sobre o curso.
 
 _ _ _ _
 
