@@ -1,5 +1,5 @@
 # peRmalab
-Repositório do curso em constante construção "Linguagem R para Análises Reproduzíveis", oferecido no Permacultura Lab. Aqui você encontra arquivos e maiores detalhes sobre o curso.
+Repositório do curso em constante construção "Linguagem R para Dados Reproduzíveis", oferecido no Permacultura Lab. Aqui você encontra arquivos e maiores detalhes sobre o curso.
 
 _ _ _ _
 
