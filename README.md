@@ -3,4 +3,6 @@ Repositório do curso em constante construção "Linguagem R para Dados Reproduz
 
 _ _ _ _
 
-<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />O trabalho <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">"R para Análises Científicas Reproduzíveis"</span> de <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Saulo Machado Jacques</span> pode ser usado, compartilhado e modificado livremente, segundo a Licença <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons - Atribuição  4.0 Internacional</a>.
+R para Análises Científicas Reproduzíveis está licenciada com uma <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons - Atribuição-CompartilhaIgual 4.0 Internacional</a>
+
+[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
